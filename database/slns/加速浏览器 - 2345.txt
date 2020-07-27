@@ -1,0 +1,6 @@
+{
+"type": "menu",
+"items": {
+"卸载": "uninstall"
+}
+}

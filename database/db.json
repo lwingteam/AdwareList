@@ -134,7 +134,7 @@
     },
     {
         "name": "腾讯视频",
-        "scan": ["@desk", "@soft"],
+        "scan": ["@desk(腾讯视频)", "@soft"],
         "solutions": {
             "卸载": "@uninstall"
         }
@@ -337,7 +337,7 @@
     },
     {
         "name": "火驰PDF转换器",
-        "scan": ["@desk", "@soft"],
+        "scan": ["@desk(火驰PDF转换器)", "@soft"],
         "solutions": {
             "卸载": "@uninstall"
         }

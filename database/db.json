@@ -341,5 +341,19 @@
         "solutions": {
             "卸载": "@uninstall"
         }
+    },
+    {
+        "name": "云上压缩",
+        "scan": ["@desk", "@soft"],
+        "solutions": {
+            "卸载": "@uninstall"
+        }
+    },
+    {
+        "name": "安全浏览器",
+        "scan": ["@desk", "@soft"],
+        "solutions": {
+            "卸载": "@uninstall"
+        }
     }
 ]

@@ -46,7 +46,8 @@
     "name": "2345安全组件",
     "scan": [ "@desk", "@soft(安全组件 - 2345)" ],
     "solutions": {
-      "卸载:方案一（适用于捆绑安装）": "@uninstall(安全组件 - 2345);@uninstall(2345安全组件)"
+      "卸载:方案一（适用于捆绑安装）": "@uninstall(安全组件 - 2345);@uninstall(2345安全组件)",
+      "卸载:方案二（适用于GHOST系统）": "@run(C:\\Program Files\\2345Soft\\2345SafeCenter\\*\\Uninstall.exe)"
     }
   },
   {
@@ -145,14 +146,16 @@
     "name": "腾讯视频",
     "scan": [ "@desk(腾讯视频)", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载:方案一（适用于捆绑软件和手动安装）": "@uninstall",
+      "卸载:方案二（适用于GHOST系统）": "@run(C:\\Program Files\\Tencent\\QQLive\\QQLiveUninstaller.exe)"
     }
   },
   {
     "name": "WinRAR",
     "scan": [ "@desk", "@soft_include(WinRAR)" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载:方案一（暂时不可用）": "@uninstall",
+      "卸载:方案二": "@run(C:\\Program Files\\WinRAR\\uninstall.exe)"
     }
   },
   {
@@ -348,7 +351,8 @@
     "name": "火驰PDF转换器",
     "scan": [ "@desk(火驰PDF转换器)", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载:方案一（可能不可用）": "@uninstall",
+      "卸载:方案二": "@run(C:\\Program Files\\HuoChiPDFConver\\*\\uninst.exe)"
     }
   },
   {
@@ -370,6 +374,14 @@
     "scan": [ "@desk", "@soft" ],
     "solutions": {
       "卸载:方案二（适用于GHOST系统）": "@run(cmd.exe,/r title 卸载中&&del /f /s /q C:\\Users\\Administrator\\AppData\\Roaming\\latu\\*&&echo 卸载完成，按任意键关闭！&&pause >nul)"
+    }
+  },
+  {
+    "name": "搜狗浏览器",
+    "scan": [ "@desk(搜狗高速浏览器)", "@soft" ],
+    "solutions": {
+      "卸载:方案一（适用于捆绑软件与自行安装）": "@uninstall",
+      "卸载:方案二（适用于GHOST系统）": "@run(C:\\Users\\Administrator\\AppData\\Local\\SogouExplorer\\*\\UninsSE.exe)"
     }
   }
 ]

@@ -17,7 +17,8 @@
     "name": "360安全浏览器",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载:方案一（适用于捆绑安装和自行安装）": "@uninstall(,--uninstall)",
+      "卸载:方案二（适用于GHOST系统）": "@run(C:\\Users\\Administrator\\AppData\\Roaming\\360se6\\Application\\*\\Installer\\setup.exe,--uninstall)"
     }
   },
   {

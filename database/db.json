@@ -188,7 +188,7 @@
   },
   {
     "name": "WPS",
-    "scan": [ "@desk", "@soft" ],
+    "scan": [ "@desk", "@soft_include(WPS,Office)", "@soft_include(WPS,2016)" ],
     "solutions": {
       "卸载": "@uninstall"
     }

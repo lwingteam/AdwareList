@@ -1,359 +1,374 @@
 [
-    {
-        "name": "360安全卫士",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "360杀毒",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "360安全浏览器",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "360极速浏览器",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "QQ浏览器",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "急速浏览器",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "2345加速浏览器",
-        "scan": ["@desk", "@soft(2345 - 加速浏览器)"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "2345看图王",
-        "scan": ["@desk", "@soft(2345看图王)"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "2345好压",
-        "scan": ["@desk(好压)", "@soft(好压)"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "2345安全卫士",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "2345王牌输入法",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "快压",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "小鸟壁纸",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "Bandizip 7.*",
-        "scan": ["@soft(Bandizip 7)"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "Flash Player",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "智能云输入法",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "搜狗输入法",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "鲁大师",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "腾讯电脑管家",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "腾讯视频",
-        "scan": ["@desk(腾讯视频)", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "WinRAR",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "6789压缩",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "小黑记事本",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "六六记事本",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "金山词霸",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "WPS",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "360桌面助手",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "万能压缩",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "多顿看图",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "小象记事本",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "手机模拟大师",
-        "scan": ["@desk"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "搜狐影音",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "极速输入法",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "香草wifi",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "云上压缩",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "万能压缩",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "双核浏览器",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "迅雷",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "爱奇艺",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "金山卫士",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "金山毒霸",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "布丁压缩",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "瑞星杀毒",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "优酷",
-        "scan": ["@desk", "@soft(优酷客户端)"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "百度输入法",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "暴风影音",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "软件管家",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "驱动总裁",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "火驰PDF转换器",
-        "scan": ["@desk(火驰PDF转换器)", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "云上压缩",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
-    },
-    {
-        "name": "安全浏览器",
-        "scan": ["@desk", "@soft"],
-        "solutions": {
-            "卸载": "@uninstall"
-        }
+  {
+    "name": "360安全卫士",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
     }
+  },
+  {
+    "name": "360杀毒",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "360安全浏览器",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "360极速浏览器",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "QQ浏览器",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "急速浏览器",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "2345安全组件",
+    "scan": [ "@desk", "@soft(安全组件 - 2345)" ],
+    "solutions": {
+      "卸载:方案一（适用于捆绑安装）": "@uninstall(安全组件 - 2345);@uninstall(2345安全组件)"
+    }
+  },
+  {
+    "name": "2345加速浏览器",
+    "scan": [ "@desk", "@soft(2345 - 加速浏览器)" ],
+    "solutions": {
+      "卸载:方案一（适用于捆绑安装）": "@uninstall(加速浏览器 - 2345);@uninstall(2345加速浏览器)",
+      "卸载:方案二（适用于GHOST系统）": "@run(C:\\Program Files\\2345Soft\\2345Explorer\\Uninstall.exe)"
+    }
+  },
+  {
+    "name": "2345看图王",
+    "scan": [ "@desk", "@soft(2345看图王)" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "2345好压",
+    "scan": [ "@desk(好压)", "@soft(好压)" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "2345安全卫士",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "2345王牌输入法",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "快压",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "小鸟壁纸",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "Bandizip 7.*",
+    "scan": [ "@soft(Bandizip 7)" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "Flash Player",
+    "scan": [ "@desk", "@soft_include(Adobe,Flash,Player)" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "智能云输入法",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "搜狗输入法",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "鲁大师",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "腾讯电脑管家",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "腾讯视频",
+    "scan": [ "@desk(腾讯视频)", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "WinRAR",
+    "scan": [ "@desk", "@soft_include(WinRAR)" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "6789压缩",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "小黑记事本",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "六六记事本",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "金山词霸",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "WPS",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "360桌面助手",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "万能压缩",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "多顿看图",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "小象记事本",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "手机模拟大师",
+    "scan": [ "@desk" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "搜狐影音",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "极速输入法",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "香草wifi",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "云上压缩",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "万能压缩",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "双核浏览器",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "迅雷",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "爱奇艺",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "金山卫士",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "金山毒霸",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "布丁压缩",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "瑞星杀毒",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "优酷",
+    "scan": [ "@desk", "@soft(优酷客户端)" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "百度输入法",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "暴风影音",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "软件管家",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "驱动总裁",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "火驰PDF转换器",
+    "scan": [ "@desk(火驰PDF转换器)", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "云上压缩",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "安全浏览器",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载": "@uninstall"
+    }
+  },
+  {
+    "name": "拉兔生活",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载:方案二（适用于GHOST系统）": "@run(cmd.exe,/r title 卸载中&&del /f /s /q C:\\Users\\Administrator\\AppData\\Roaming\\latu\\*&&echo 卸载完成，按任意键关闭！&&pause >nul)"
+    }
+  }
 ]

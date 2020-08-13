@@ -1,6 +1,7 @@
 {
   "commands": {
-    "install_huorong": "@run(powershell.exe,-c $Host.UI.RawUI.WindowTitle = \"下载中...\";echo \"正在获取最新版本下载地址...\";$req = Invoke-WebRequest -uri \"https://www.huorong.cn/versionShow.php\";$info = ConvertFrom-Json $req;$url = $info.urlFull;echo \"最新版本下载地址为：$url\";Invoke-WebRequest -uri $url -OutFile \"huorong_installer.exe\";echo \"下载完成\";$installer = [diagnostics.process]::start(\"huorong_installer.exe\");$installer.WaitForExit"
+    "install_huorong": "@run(powershell.exe,-c $Host.UI.RawUI.WindowTitle = \"下载中...\";echo \"正在获取最新版本下载地址...\";$req = Invoke-WebRequest -uri \"https://www.huorong.cn/versionShow.php\";$info = ConvertFrom-Json $req;$url = $info.urlFull;echo \"最新版本下载地址为：$url\";Invoke-WebRequest -uri $url -OutFile \"huorong_installer.exe\";echo \"下载完成\";$installer = [diagnostics.process]::start(\"huorong_installer.exe\");$installer.WaitForExit)",
+    "install_bandizip": "@run(powershell.exe,-c Start-Process -FilePath \"https://www.lanzous.com/i8av00j\")"
   },
   "list":[
   {
@@ -15,7 +16,8 @@
     "name": "360杀毒",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:火绒杀毒": "@do(install_huorong)"
     }
   },
   {
@@ -24,13 +26,6 @@
     "solutions": {
       "卸载:方案一（适用于捆绑安装和自行安装）": "@uninstall(,--uninstall)",
       "卸载:方案二（适用于GHOST系统）": "@run(C:\\Users\\Administrator\\AppData\\Roaming\\360se6\\Application\\*\\Installer\\setup.exe,--uninstall)"
-    }
-  },
-  {
-    "name": "360极速浏览器",
-    "scan": [ "@desk", "@soft" ],
-    "solutions": {
-      "卸载": "@uninstall"
     }
   },
   {
@@ -74,14 +69,16 @@
     "name": "2345好压",
     "scan": [ "@desk(好压)", "@soft(好压)" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:Bandizip 6.*（请勿更新至7）（来源：www.iplaysoft.com）": "@do(install_bandizip)"
     }
   },
   {
     "name": "2345安全卫士",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:火绒杀毒": "@do(install_huorong)"
     }
   },
   {
@@ -109,7 +106,8 @@
     "name": "Bandizip 7.*",
     "scan": [ "@soft(Bandizip 7)" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:Bandizip 6.*（请勿更新至7）（来源：www.iplaysoft.com）": "@do(install_bandizip)"
     }
   },
   {
@@ -130,7 +128,8 @@
     "name": "搜狗输入法",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载（不推荐）": "@uninstall",
+      "方案：使用火绒拦截广告（将会安装火绒！！！）": "@do(install_huorong)"
     }
   },
   {
@@ -144,7 +143,8 @@
     "name": "腾讯电脑管家",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:火绒杀毒": "@do(install_huorong)"
     }
   },
   {
@@ -160,14 +160,16 @@
     "scan": [ "@desk", "@soft_include(WinRAR)" ],
     "solutions": {
       "卸载:方案一（暂时不可用）": "@uninstall",
-      "卸载:方案二": "@run(C:\\Program Files\\WinRAR\\uninstall.exe)"
+      "卸载:方案二": "@run(C:\\Program Files\\WinRAR\\uninstall.exe)",
+      "代替软件:Bandizip 6.*（请勿更新至7）（来源：www.iplaysoft.com）": "@do(install_bandizip)"
     }
   },
   {
     "name": "6789压缩",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:Bandizip 6.*（请勿更新至7）（来源：www.iplaysoft.com）": "@do(install_bandizip)"
     }
   },
   {
@@ -209,7 +211,8 @@
     "name": "万能压缩",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:Bandizip 6.*（请勿更新至7）（来源：www.iplaysoft.com）": "@do(install_bandizip)"
     }
   },
   {
@@ -258,14 +261,16 @@
     "name": "云上压缩",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:Bandizip 6.*（请勿更新至7）（来源：www.iplaysoft.com）": "@do(install_bandizip)"
     }
   },
   {
     "name": "万能压缩",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:Bandizip 6.*（请勿更新至7）（来源：www.iplaysoft.com）": "@do(install_bandizip)"
     }
   },
   {
@@ -293,14 +298,16 @@
     "name": "金山卫士",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:Bandizip 6.*（请勿更新至7）（来源：www.iplaysoft.com）": "@do(install_bandizip)"
     }
   },
   {
     "name": "金山毒霸",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:Bandizip 6.*（请勿更新至7）（来源：www.iplaysoft.com）": "@do(install_bandizip)"
     }
   },
   {
@@ -358,13 +365,6 @@
     "solutions": {
       "卸载:方案一（可能不可用）": "@uninstall",
       "卸载:方案二": "@run(C:\\Program Files\\HuoChiPDFConver\\*\\uninst.exe)"
-    }
-  },
-  {
-    "name": "云上压缩",
-    "scan": [ "@desk", "@soft" ],
-    "solutions": {
-      "卸载": "@uninstall"
     }
   },
   {

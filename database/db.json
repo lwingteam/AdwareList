@@ -1,9 +1,14 @@
-[
+{
+  "commands": {
+    "install_huorong": "@run(powershell.exe,-c $Host.UI.RawUI.WindowTitle = \"下载中...\";echo \"正在获取最新版本下载地址...\";$req = Invoke-WebRequest -uri \"https://www.huorong.cn/versionShow.php\";$info = ConvertFrom-Json $req;$url = $info.urlFull;echo \"最新版本下载地址为：$url\";Invoke-WebRequest -uri $url -OutFile \"huorong_installer.exe\";echo \"下载完成\";$installer = [diagnostics.process]::start(\"huorong_installer.exe\");$installer.WaitForExit"
+  },
+  "list":[
   {
     "name": "360安全卫士",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
-      "卸载": "@uninstall"
+      "卸载": "@uninstall",
+      "代替软件:火绒杀毒": "@do(install_huorong)"
     }
   },
   {
@@ -385,3 +390,4 @@
     }
   }
 ]
+}

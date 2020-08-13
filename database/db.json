@@ -51,7 +51,7 @@
     "name": "2345安全组件",
     "scan": [ "@desk", "@soft(安全组件 - 2345)" ],
     "solutions": {
-      "卸载:方案一（适用于捆绑安装）": "@uninstall(安全组件 - 2345);@uninstall(2345安全组件)",
+      "卸载:方案一（适用于捆绑安装）": "@uninstall(安全组件 - 2345);;@uninstall(2345安全组件)",
       "卸载:方案二（适用于GHOST系统）": "@run(C:\\Program Files\\2345Soft\\2345SafeCenter\\*\\Uninstall.exe)"
     }
   },
@@ -59,7 +59,7 @@
     "name": "2345加速浏览器",
     "scan": [ "@desk", "@soft(2345 - 加速浏览器)" ],
     "solutions": {
-      "卸载:方案一（适用于捆绑安装）": "@uninstall(加速浏览器 - 2345);@uninstall(2345加速浏览器)",
+      "卸载:方案一（适用于捆绑安装）": "@uninstall(加速浏览器 - 2345);;@uninstall(2345加速浏览器)",
       "卸载:方案二（适用于GHOST系统）": "@run(C:\\Program Files\\2345Soft\\2345Explorer\\Uninstall.exe)"
     }
   },

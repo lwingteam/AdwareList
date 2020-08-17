@@ -230,13 +230,6 @@
     }
   },
   {
-    "name": "手机模拟大师",
-    "scan": [ "@desk" ],
-    "solutions": {
-      "卸载": "@uninstall"
-    }
-  },
-  {
     "name": "搜狐影音",
     "scan": [ "@desk", "@soft" ],
     "solutions": {
@@ -387,6 +380,41 @@
     "solutions": {
       "卸载:方案一（适用于捆绑软件与自行安装）": "@uninstall",
       "卸载:方案二（适用于GHOST系统）": "@run(C:\\Users\\Administrator\\AppData\\Local\\SogouExplorer\\*\\UninsSE.exe)"
+    }
+  },
+  {
+    "name": "极简便签记事",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载:方案一（适用于捆绑软件与自行安装）": "@uninstall"
+    }
+  },
+  {
+    "name": "EasyPDF阅读器",
+    "scan": [ "@desk(风云PDF阅读器)", "@soft" ],
+    "solutions": {
+      "卸载:方案一（适用于捆绑软件与自行安装）": "@uninstall"
+    }
+  },
+  {
+    "name": "手机模拟大师",
+    "scan": [ "@desk(手机模拟大师)", "@soft" ],
+    "solutions": {
+      "卸载:方案一（适用于捆绑软件与自行安装）": "@uninstall"
+    }
+  },
+  {
+    "name": "屏幕截图（恶意软件）",
+    "scan": [ "@soft(高效截图软件,屏幕截图)" ],
+    "solutions": {
+      "卸载:方案一（适用于捆绑软件与自行安装）": "@uninstall"
+    }
+  },
+  {
+    "name": "今日热点",
+    "scan": [ "@desk", "@soft" ],
+    "solutions": {
+      "卸载:方案一（适用于捆绑软件与自行安装）": "@uninstall"
     }
   }
 ]
